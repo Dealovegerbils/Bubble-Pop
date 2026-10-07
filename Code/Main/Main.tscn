@@ -6,5 +6,20 @@
 [node name="Main" type="Node" unique_id=1525632278]
 script = ExtResource("1_lxy7q")
 
+[node name="Bubble3" parent="." unique_id=2119079109 instance=ExtResource("2_83ytx")]
+position = Vector2(503, 676)
+
+[node name="Bubble2" parent="." unique_id=1929320442 instance=ExtResource("2_83ytx")]
+position = Vector2(73, 345)
+scale = Vector2(0.35, 0.35)
+
 [node name="Bubble" parent="." unique_id=1338722090 instance=ExtResource("2_83ytx")]
-position = Vector2(563, 641)
+position = Vector2(910, 451)
+
+[node name="Bubble4" parent="." unique_id=590769829 instance=ExtResource("2_83ytx")]
+position = Vector2(208, 546)
+scale = Vector2(0.2, 0.2)
+
+[node name="Bubble5" parent="." unique_id=1342647864 instance=ExtResource("2_83ytx")]
+position = Vector2(705, 272)
+scale = Vector2(0.9, 0.9)
