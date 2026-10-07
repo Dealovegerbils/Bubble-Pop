@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://lxljfgfynsd"]
+
+[ext_resource type="Script" uid="uid://tmjrx1toojrr" path="res://Bubble/Bubble.gd" id="1_sc4i0"]
+[ext_resource type="Texture2D" uid="uid://brsy70u843wyn" path="res://Textures/bubble.png" id="2_iauun"]
+
+[node name="Bubble" type="Node2D" unique_id=1338722090]
+script = ExtResource("1_sc4i0")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1720797913]
+texture = ExtResource("2_iauun")
+flip_h = true
