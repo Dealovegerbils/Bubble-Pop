@@ -8,6 +8,8 @@ func _ready() -> void:
 
 func _process(delta: float) -> void:
 	position.y -= speed * delta 
+	if position.y <=0:
+		pop()
 
 
 func on_clicked(viewport, event, shape):
