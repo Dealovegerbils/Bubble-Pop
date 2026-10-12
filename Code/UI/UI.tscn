@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://c6em00cllt1er"]
+
+[ext_resource type="Script" uid="uid://due4h8bo7m6pt" path="res://UI/Ui.gd" id="1_6dd3c"]
+[ext_resource type="FontFile" uid="uid://dhes6cbhxkqev" path="res://Fonts/heav.ttf" id="2_dhe1o"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q0uhn"]
+content_margin_left = 33.0
+content_margin_top = 33.0
+content_margin_right = 33.0
+content_margin_bottom = 33.0
+bg_color = Color(0.6, 0.1764706, 0.9137255, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.7701666, 0.38413933, 0.9706668, 1)
+corner_radius_top_left = 33
+corner_radius_top_right = 33
+corner_radius_bottom_right = 33
+corner_radius_bottom_left = 33
+corner_detail = 20
+shadow_color = Color(0, 0, 0.7490196, 0.6)
+
+[sub_resource type="LabelSettings" id="LabelSettings_6dd3c"]
+font = ExtResource("2_dhe1o")
+font_size = 60
+font_color = Color(0.8202122, 0.22125202, 0.80816436, 1)
+outline_size = 5
+outline_color = Color(0.24111101, 2.2910237e-05, 0.9417471, 1)
+stacked_shadow_count = 2
+stacked_shadow_0/color = Color(0.03529412, 0, 0.68235296, 1)
+
+[node name="Ui" type="PanelContainer" unique_id=2122519819]
+propagate_maximum_size = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -767.0
+offset_bottom = -514.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6dd3c")
+
+[node name="Score UI" type="Label" parent="." unique_id=145261457]
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_q0uhn")
+text = "0123456789"
+label_settings = SubResource("LabelSettings_6dd3c")
+horizontal_alignment = 1
+vertical_alignment = 1
