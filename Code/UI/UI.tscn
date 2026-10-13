@@ -4,22 +4,25 @@
 [ext_resource type="FontFile" uid="uid://dhes6cbhxkqev" path="res://Fonts/heav.ttf" id="2_dhe1o"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q0uhn"]
+resource_local_to_scene = true
 content_margin_left = 33.0
 content_margin_top = 33.0
 content_margin_right = 33.0
 content_margin_bottom = 33.0
-bg_color = Color(0.6, 0.1764706, 0.9137255, 1)
-border_width_left = 3
-border_width_top = 3
-border_width_right = 3
-border_width_bottom = 3
-border_color = Color(0.7701666, 0.38413933, 0.9706668, 1)
+bg_color = Color(0.7906267, 0.61364025, 0.9897981, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color(0.81960785, 0.21960784, 0.80784315, 1)
 corner_radius_top_left = 33
 corner_radius_top_right = 33
 corner_radius_bottom_right = 33
 corner_radius_bottom_left = 33
 corner_detail = 20
-shadow_color = Color(0, 0, 0.7490196, 0.6)
+shadow_color = Color(0, 0.31521547, 0.6929398, 0.6)
+shadow_size = 13
+anti_aliasing_size = 2.806
 
 [sub_resource type="LabelSettings" id="LabelSettings_6dd3c"]
 font = ExtResource("2_dhe1o")
@@ -31,6 +34,7 @@ stacked_shadow_count = 2
 stacked_shadow_0/color = Color(0.03529412, 0, 0.68235296, 1)
 
 [node name="Ui" type="PanelContainer" unique_id=2122519819]
+self_modulate = Color(1, 1, 1, 0.31)
 propagate_maximum_size = false
 anchors_preset = 15
 anchor_right = 1.0

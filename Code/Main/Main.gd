@@ -15,7 +15,7 @@ func _ready() -> void:
 
 func spawn_bubble():
 	var bubble: Bubble = BUBBLE.instantiate()
+	bubble.main = self
 	bubble.position.x = randi_range(0, get_viewport().size.x)
 	bubble.position.y = get_viewport().size.y
 	add_child(bubble)
-	ui.update_score(1)
