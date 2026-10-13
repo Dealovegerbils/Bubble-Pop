@@ -43,6 +43,7 @@ offset_right = -767.0
 offset_bottom = -514.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 2
 script = ExtResource("1_6dd3c")
 
 [node name="Score UI" type="Label" parent="." unique_id=145261457]
